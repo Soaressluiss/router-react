@@ -15,6 +15,26 @@
 
 }
 .links {
-    color: white;
+    color: black;
     background-color:#CE7DA5;
+    position: relative;
+}
+
+.links:hover {
+    color: rgb(82, 62, 85);
+}
+
+
+.links::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 30px;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(17, 30, 37);
+    transition: all .4s ease-in-out;
+}
+.links:hover::after {
+    width: 100%;
 }
