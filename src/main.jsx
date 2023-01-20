@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import About from './pages/Sobre';
-import Home from './pages/Home';
+import Home from './pages/home';
 import Contatos from './pages/Contatos';
 import PageError from './pages/PageError'
 
