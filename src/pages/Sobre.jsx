@@ -1,13 +1,12 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
 
-const Sobre = () => {
-    return (
-        <>
-            <Navbar />
-            <h3>Sobre</h3>
-        </>
-    )
+import Navbar from "../components/Navbar";
+
+function About() {
+  return (
+    <>
+    <Navbar />
+      <h2> Você está na pagina de sobre</h2>
+    </>
+  );
 }
-
-export default Sobre
+export default About;

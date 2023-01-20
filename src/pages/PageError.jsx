@@ -12,4 +12,4 @@ const PageError = () => {
     )
 }
 
-export default PageError
+export default PageError;

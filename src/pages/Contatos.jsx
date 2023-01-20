@@ -1,13 +1,12 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
 
-const Contatos = () => {
-    return (
-        <>
-            <Navbar />
-            <h3>Contatos</h3>
-        </>
-    )
+import Navbar from '../components/Navbar';
+
+function Contatos() {
+  return (
+    <>
+      <Navbar />
+      <h2>Você está na página de contatos</h2>
+    </>
+  );
 }
-
-export default Contatos
+export default Contatos;
