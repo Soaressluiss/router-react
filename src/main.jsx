@@ -5,8 +5,8 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import About from './pages/Sobre';
-import Contatos from './pages/Contatos';
 import Home from './pages/Home';
+import Contatos from './pages/Contatos';
 import PageError from './pages/PageError'
 
 
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home />,
+        element: <Home/>,
       },
       {
         path: '/about',
