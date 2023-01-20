@@ -9,6 +9,17 @@
         transform: translateY(0px);
     }
 }
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 
 
 .containerPage {
@@ -17,7 +28,8 @@
     align-items: center;
     gap: 3rem;
     justify-content: space-between;
-    margin: 2rem 0.5rem;
+    margin-top: 2rem;
+    width: 100%;
 
 }
 
@@ -28,9 +40,29 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     text-align: center;
+    animation: slideDown 1s ease forwards;
 }
 
 .imgPage {
     width: 400px;
     animation: slideUp 1s ease forwards;
+}
+
+.btnError {
+    padding: 1rem 4rem;
+    border-radius: 25px;
+    background-color: lightblue;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-family: monospace;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 1px 2px 5px black;
+}
+.btnError:hover {
+    cursor: pointer;
+    background-color: #c799ae;
+    transition: all 1s ease;
+    transform: scale(1.1)
 }

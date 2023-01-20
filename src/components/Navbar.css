@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 1.5rem;
-    background-color:#CE7DA5;
+    background-color:#c799ae;
 }
 
 .navItens {
@@ -16,7 +16,7 @@
 }
 .links {
     color: black;
-    background-color:#CE7DA5;
+    background-color: #c799ae;
     position: relative;
 }
 
